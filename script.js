@@ -22,5 +22,4 @@ rindas.innerHTML +=`
 <td>${uzvaretajs1}</td>
 </tr>`
 
-
 }
