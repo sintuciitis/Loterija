@@ -1,0 +1,13 @@
+table, th, td {
+
+    border: 4xp solid rgb(0, 0, 0);
+    border-style: collapse;
+    width: 50%;
+
+}
+
+th, td {
+
+    background-color:rgb(188, 219, 198)
+}
+
