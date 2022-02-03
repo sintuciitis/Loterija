@@ -11,8 +11,8 @@ for(let i = 0; i <uzvaretajuSkaits; i++){
     let rand = Math.random()*5;   //nejauši izvēlēsies 5 uzvarētājus
     rand = Math.floor(rand);  //nozīmē, ka apaļo uz leju, lai neivēlētos 3,7 , bet 4
 
-let uzvaretajs = vardi[rand]  //izvada datus konsolē
-let uzvaretajs1 = balvas[rand]
+let uzvaretajs = vardi[rand];  //izvada datus konsolē
+let uzvaretajs1 = balvas[rand];
 
 rindas.innerHTML +=`
 
@@ -21,5 +21,6 @@ rindas.innerHTML +=`
 <td>${uzvaretajs}</td>
 <td>${uzvaretajs1}</td>
 </tr>`
+
 
 }
